@@ -23,7 +23,7 @@ env = environ.Env(
     ALLOW_ALL_ORIGINS=(bool, False),
     ALLOWED_HOSTS=(list, []),
     ALLOWED_ORIGINS=(list, []),
-    DATABASE_ENGINE=(str, "django.db.backends.sqlite3"),
+    DATABASE_ENGINE=(str, ""),
     DATABASE_NAME=(str, BASE_DIR / "db.sqlite3"),
     DATABASE_USER=(str, ""),
     DATABASE_PASSWORD=(str, ""),
@@ -61,7 +61,7 @@ INSTALLED_APPS = [
     "corsheaders",
     # local
     "accounts",
-    "things",
+    "cookie_stands",
 ]
 
 MIDDLEWARE = [
